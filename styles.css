@@ -1,9 +1,9 @@
 :root {
     --white: #fff;
     --light-grey: #f5f6f7;
-    --dark-grey: #0a0a23;
-    --yellow: #f1be32;
-    --golden-yellow: #feac32;
+    --teal: #275c65;
+    --green: #32f1b1;
+    --light-green: #32febd;
   }
   
   *,
@@ -15,7 +15,7 @@
   }
   
   body {
-    background-color: var(--dark-grey);
+    background-color: var(--teal);
   }
   
   main {
@@ -34,7 +34,7 @@
     background-color: var(--white);
     width: 300px;
     height: 350px;
-    border: 5px solid var(--yellow);
+    border: 5px solid var(--green);
     border-radius: 8px;
     padding: 15px;
     position: relative;
@@ -42,20 +42,24 @@
     flex-direction: column;
     gap: 10px;
   }
+
+  strong{
+    color: var(--teal);
+  }
   
   .btn {
     cursor: pointer;
     width: 100px;
     margin: 10px;
-    color: var(--dark-grey);
-    background-color: var(--golden-yellow);
-    background-image: linear-gradient(#fecc4c, #ffac33);
-    border-color: var(--golden-yellow);
+    color: var(--teal);
+    background-color: var(--light-green);
+    background-image: linear-gradient(#4cfec3, #33ff81);
+    border-color: var(--light-green);
     border-width: 3px;
   }
   
   .btn:hover {
-    background-image: linear-gradient(#ffcc4c, #f89808);
+    background-image: linear-gradient(#4cccff, #08c8f8);
   }
   
   .large-btn {
@@ -166,6 +170,8 @@
     text-align: center;
     padding: 1em;
     font-size: 1.2em;
+    position: fixed;
+    color: var(--light-grey);
   }
   
   footer a {
