@@ -8,4 +8,4 @@ In this poroject I learned more about localStorage and how to use it to save the
 ## Access this turtoial to do yourself!
 This tutorial is part of freeCodeCamps Javascript Algorithims and Data Sctructures Course
 
-[Free Code Camp Course](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/)
+[freeCodeCamp Course](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/)
